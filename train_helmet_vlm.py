@@ -1,5 +1,5 @@
 # train_helmet_vlm.py
-# LLaVA-NeXT 모델 (`llava-hf/llava-v1.6-mistral-7b-hf`)을 
+# LLaVA 1.6 모델 (`llava-hf/llava-v1.6-mistral-7b-hf`)을 
 # PyTorch Lightning과 QLoRA를 사용하여 오토바이 헬멧 착용 여부 감지 작업에 파인튜닝합니다.
 # 실행 전 `preprocess_helmet_data.py`를 통해 `data/train_helmet_mixed.json` 파일이 생성되어 있어야 합니다.
 

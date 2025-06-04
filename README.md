@@ -5,7 +5,7 @@
 
 ## 1. 프로젝트 개요
 
-본 프로젝트는 최신 대규모 언어·시각 모델(Vision–Language Model, VLM)인 **LLaVA-NeXT** (`llava-hf/llava-v1.6-mistral-7b-hf`)를 활용하여, CCTV 등에서 확보된 **사진**에서 오토바이 주행자 이미지의 안전모 착용 여부를 자동으로 판독하는 시스템을 개발합니다.
+본 프로젝트는 최신 대규모 언어·시각 모델(Vision–Language Model, VLM)인 **LLaVA-NeXT** (`llava-hf/llava-v1.6-mistral-7b-hf`)를 활용하여, CCTV 등에서 확보된 **사진**에서 오토바이 주행자 이미지의 안전모 착용 여부를 자동으로 판독하는 시스템을 구축하였습니다.
 
 - 사용자가 “이 오토바이 주행자가 안전모를 착용했습니까?”와 같은 자연어 질문을 입력하면,
 시스템은 이미지의 시각 정보를 바탕으로 “예, 착용했다.” 또는 “아니요, 착용하지 않았다.” 형태의 답변을 생성합니다.
@@ -51,7 +51,7 @@
 ## 5. 파일 구조
 
 ```bash
-VLM_and_YOLO/
+VLM_Project
 ├── data/
 │ ├── annotations/ # 원본 어노테이션 파일 (JSON, XML)
 │ ├── images/ # 원본 이미지 파일
@@ -106,7 +106,7 @@ pip install numpy==2.0.0
 
 # (선택) tensorboard 설치: pip install tensorboard
 
-참고: transformers, tokenizers, sentencepiece 버전 호환성을 확인하세요.
+참고: transformers, tokenizers, sentencepiece 버전 호환성을 확인해야 합니다.
 
 1. 스크립트 실행 방법
 사전 준비
